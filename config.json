@@ -2,52 +2,6 @@
     {
         "settings":{
             "datepicker": "dropdown" 
-        },
-        "pages":{
-            "dashboard":[
-                {
-                    "id": "activewallets",
-                    "title": "Active Wallets",
-                    "charttype": "barchart",
-                    "showtimeframe": true,
-                    "showmaximize": true
-                },
-                {
-                    "title": "New Wallets",
-                    "charttype": "barchart",
-                    "showtimeframe": true
-                },
-                {
-                    "title": "Transaction Volume",
-                    "charttype": "linechart",
-                    "showtimeframe": true
-                },
-                {
-                    "title": "Number of New Dapps",
-                    "charttype": "barchartstack",
-                    "showtimeframe": true
-                },
-                {
-                    "title": "Contract Calls",
-                    "charttype": "barchartstack",
-                    "showtimeframe": true
-                },
-                {
-                    "title": "Transaction Mix by Sector",
-                    "charttype": "donuts",
-                    "showtimeframe": true
-                },
-                {
-                    "title": "Number of New Dapps",
-                    "charttype": "donuts",
-                    "showtimeframe": true
-                },
-                {
-                    "title": "Contract Activity Share",
-                    "charttype": "barchartstack",
-                    "showtimeframe": true
-                }
-            ]
         }
     }
 ]

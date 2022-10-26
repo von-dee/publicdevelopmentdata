@@ -1,0 +1,89 @@
+[{
+    "settings":{
+        "datepicker": "dropdown" 
+    },
+    "menu":[
+        {
+            "title": "Dashboard",
+            "path": "/dashboard",
+            "icon": "mdi mdi-speedometer"
+        },
+        {
+            "title": "DeFi",
+            "path": "/defi",
+            "icon": "mdi mdi-cash"
+        },
+        {
+            "title": "NFTs",
+            "path": "/nfts",
+            "icon": "mdi mdi-folder-multiple-image"
+        },
+        {
+            "title": "Games",
+            "path": "/games",
+            "icon": "mdi mdi-google-controller"
+        },
+        {
+            "title": "Devs",
+            "path": "/devs",
+            "icon": "mdi mdi-dev-to"
+        },
+        {
+            "title": "Marketing",
+            "path": "/marketing",
+            "icon": "mdi mdi-account-box-outline"
+        },
+        {
+            "title": "Cohorts",
+            "path": "/cohorts",
+            "icon": "mdi mdi-account-multiple"
+        }
+        
+    ],
+    "pages":{
+        "dashboard":[
+            {
+                "id": "activewallets",
+                "title": "Active Wallets",
+                "charttype": "barchart",
+                "showtimeframe": true,
+                "showmaximize": true
+            },
+            {
+                "title": "New Wallets",
+                "charttype": "barchart",
+                "showtimeframe": true
+            },
+            {
+                "title": "Transaction Volume",
+                "charttype": "linechart",
+                "showtimeframe": true
+            },
+            {
+                "title": "Number of New Dapps",
+                "charttype": "barchartstack",
+                "showtimeframe": true
+            },
+            {
+                "title": "Contract Calls",
+                "charttype": "barchartstack",
+                "showtimeframe": true
+            },
+            {
+                "title": "Transaction Mix by Sector",
+                "charttype": "donuts",
+                "showtimeframe": true
+            },
+            {
+                "title": "Number of New Dapps",
+                "charttype": "donuts",
+                "showtimeframe": true
+            },
+            {
+                "title": "Contract Activity Share",
+                "charttype": "barchartstack",
+                "showtimeframe": true
+            }
+        ]
+    }
+}]
